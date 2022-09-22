@@ -2,7 +2,7 @@ import React from 'react';
 import { render, fireEvent, waitFor, screen } from '@testing-library/react';
 import App from './App';
 import { QuestionOne } from './question-one/QuestionOne';
-import { IDataService } from './common/types';
+import { IDataService, Job } from "./common/types";
 
 const data = [
   {
@@ -29,7 +29,7 @@ const data = [
     end: '2018-09-01T13:15:00Z',
     location: 'Brisbane',
   },
-];
+] as Job[];
 
 const service: IDataService = {
   getJobsWithSearchTerm: (searchTerm: string) => {
@@ -57,8 +57,8 @@ describe('Skedulo tech test', () => {
 
   test('can search for data', async () => {
     const { getByLabelText } = render(<QuestionOne service={service} />);
-    const input = getByLabelText('Search');
-    fireEvent.change(input, { target: { value: 'build' } });
+    const input = getByLabelText(/search/i);
+    fireEvent.input(input, { target: { value: 'build' } });
 
     await waitFor(async () => {
       expect(
@@ -76,8 +76,8 @@ describe('Skedulo tech test', () => {
     };
 
     const { getByLabelText } = render(<QuestionOne service={spyService} />);
-    const input = getByLabelText('Search');
-    fireEvent.change(input, { target: { value: 'bu' } });
+    const input = getByLabelText(/search/i);
+    fireEvent.input(input, { target: { value: 'bu' } });
 
     jest.advanceTimersByTime(1000);
     const build = screen.queryByText((node) => node.includes('Build'));
@@ -88,8 +88,8 @@ describe('Skedulo tech test', () => {
 
   test('clears results when input clears', async () => {
     const { getByLabelText } = render(<QuestionOne service={service} />);
-    const input = getByLabelText('Search');
-    fireEvent.change(input, { target: { value: 'build' } });
+    const input = getByLabelText(/search/i);
+    fireEvent.input(input, { target: { value: 'build' } });
 
     await waitFor(async () => {
       expect(
@@ -100,7 +100,7 @@ describe('Skedulo tech test', () => {
       ).toBeInTheDocument();
     });
 
-    fireEvent.change(input, { target: { value: '' } });
+    fireEvent.input(input, { target: { value: '' } });
     await waitFor(async () => {
       expect(
         screen.queryByText((node) => node.includes('Build a fence'))
