@@ -2,7 +2,7 @@ import React from 'react';
 import { render, fireEvent, waitFor, screen } from '@testing-library/react';
 import App from './App';
 import { QuestionOne } from './question-one/QuestionOne';
-import { IDataService, Job } from "./common/types";
+import { IDataService, Job } from './common/types';
 
 const data = [
   {
