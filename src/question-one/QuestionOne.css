@@ -1,0 +1,21 @@
+.jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.jobs__search {
+  display: flex;
+  gap: 10px;
+}
+
+.jobs__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.jobs__list > * {
+  background-color: #f9f9f9;
+  padding: 10px;
+}

@@ -1,8 +1,10 @@
+![Skedulo Logo](./public/skedulo-logo.png)
+
 # Skedulo Frontend Tech Test
 
 Hi! 👋🏻 Welcome to the Skedulo frontend tech test. Start by installing the project and then review the [test instructions](./src/INSTRUCTIONS.md).
 
-This test should take no more than one hour, and is designed to be completed either **in-person** or as a **take-home assignment**, depending on your preference.
+This test should take no more than one hour, and is designed to be completed either as an **in-person** pairing exercise or as a **take-home** assignment, depending on your preference.
 
 If you opt to do a take-home assignment, we would love to see a readme that contains some of your thinking while working through the test, constraints you worked within, some decisions and compromises you needed to make, and anything else you think would be interesting for the reviewers to know.
 

@@ -6,6 +6,8 @@ We have scaffolded out a component for you in [`src/question-one/QuestionOne.tsx
 
 We expect you to complete most of the task within the above component. However, you may find that you also need to make changes elsewhere in the project to complete your solution.
 
+We have included some basic styling. Implementing a snazzy design is **not required**, but of course we'd love you to show off some CSS skills if you have time!
+
 ### User Story
 
 As a user, I want to search for jobs by a keyword or phrase, so that I can see a filtered list of matching jobs.
