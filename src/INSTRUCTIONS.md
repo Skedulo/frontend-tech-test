@@ -1,17 +1,30 @@
-## Question
+# Instructions
 
-For this question we want you to setup a page with a text field that we can use to get a list of jobs that have matching names. Update the [src/question-one/QuestionOne.tsx](./question-one/QuestionOne.tsx) component to update the UI.
+We have scaffolded out a component for you in [`src/question-one/QuestionOne.tsx`](./question-one/QuestionOne.tsx). You will need to update this component to satisfy the following brief.
 
-So first we need a input box that will be a live search field (please have a label of 'Search'). Typing anything into this field will begin the fetch of data from the dataservice. However, it should not fetch any records until at least 3 characters have been entered. Clearing this field should clear the list of results.
+## Brief
 
-And finally when the results are displayed we will need to see:
+We expect you to complete most of the task within the above component. However, you may find that you also need to make changes elsewhere in the project to complete your solution.
 
-- The job name
-- The start and end date of the job
-- The location of the job
+### User Story
 
-Note: We have provided a `service` prop to the component that is defined in /src/service/DataService.js. It has methods you can use to retrieve the list of jobs to display.
+As a user, I want to search for jobs by a keyword or phrase, so that I can see a filtered list of matching jobs.
 
-### What we're looking for
+The `QuestionOne` component has a `service` prop - This is a data service which has methods you can use to retrieve the list of jobs to display.
 
-The goal of this Question is to see how candidates think through form submissions and what scenarios a user is likely to encounter. We have unit tests available to validate your scenario, using `yarn test` from the terminal will run these. If you think there are additional scenarios to test for then feel free to add some!
+### Acceptance Criteria
+
+- [ ] Should have a search field
+  - [ ] Should trigger a data fetch on input
+  - [ ] Should not fetch any data until at least 3 characters have been entered
+  - [ ] Should clear the results list when the value is cleared
+- [ ] Should show search results in a list
+  - [ ] Should include the job name
+  - [ ] Should include the job start and end date
+  - [ ] Should include the job location
+
+## What we're looking for
+
+The goal is to see how candidates think through form submissions and what scenarios a user is likely to encounter.
+
+We have included unit tests to validate your solution - Run these from the terminal with `yarn test`. If you think there are additional scenarios to test for then feel free to add some!

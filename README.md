@@ -1,32 +1,35 @@
-# Skedulo Tech Test
+# Skedulo Frontend Tech Test
 
-## Pre-Requisites
+Hi! 👋🏻 Welcome to the Skedulo frontend tech test. Start by installing the project and then review the [test instructions](./src/INSTRUCTIONS.md).
 
-- Node
-- Npm
-- Yarn
+This test should take no more than one hour, and is designed to be completed either **in-person** or as a **take-home assignment**, depending on your preference.
 
-## Installation Instructions
+If you opt to do a take-home assignment, we would love to see a readme that contains some of your thinking while working through the test, constraints you worked within, some decisions and compromises you needed to make, and anything else you think would be interesting for the reviewers to know.
 
-Install:
-`yarn bootstrap`
+Once you have completed the exercise, reach out to your hiring manager and they will share some github names to add as collaborators who will review your submission.
 
-This installs everything for the App as well as the Server, so please don't run `npm install` (unless you also want to run it from the `server` folder)
+Good luck! If you have any questions, please don't hesitate to contact your hiring manager.
 
-## Running the App
+## Prerequisites
 
-Run:
-`yarn start`
+- node
+- npm
+- yarn (If you already have the above two, just `npm i -g yarn`)
 
-## Testing the App
+## Install
 
-Run:
-`yarn test`
+```shell
+yarn bootstrap
+```
 
-## Overview
+## Run the app
 
-Hi! Welcome to the Skedulo frontend tech project. You will find the details for your test [here](./src/INSTRUCTIONS.md). Once you're ready reach out to your hiring manager and they will share some github names to add as collaborators who will review your submission.
+```shell
+yarn start
+```
 
-Once you have completed the exercise it would be great to see a readme that contains some of your thinking while working through the test, constraints you worked within, some decisions and compromises you needed to make, and anything else you think would be interesting for the reviewers to know.
+## Test the app
 
-Good luck! And if you have any questions, don't hesitate to contact your hiring manager.
+```shell
+yarn test
+```
