@@ -32,7 +32,7 @@ The goal is to see how candidates think through form submissions and what scenar
 We have included unit tests to validate your solution - Run these from the terminal with `yarn test`. If you think there are additional scenarios to test for then feel free to add some, even if you're not used to testing your code have a go anyway and feel free to talk it through in the follow up or in person if you're pairing.
 
 
-Spend around an hour on this, don't feel you have to rush a solution or complete everything; you will not be judged on whether you finish or not. We would much rather you give us a solution that you are proud of and feel best displays the type of code you would want to ship into production. That said, make sure there is a way to run your app and it does give some sort of output.
+Spend around an hour on this, don't feel you have to rush a solution or complete everything; you will not be judged on whether you finish or not. We would much rather you give us a solution that you are proud of and feel best displays the type of code you would want to ship into production.
 
 Add a Read Me file we'd like you to cover three things.
 
