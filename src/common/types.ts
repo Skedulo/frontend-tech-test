@@ -8,8 +8,8 @@ export interface Job {
 }
 
 export interface IDataService {
-  getJobs: () => Promise<Pick<Job, 'name' | 'start' | 'end'>[]>;
+  getJobs: () => Promise<Job[]>;
   getJobsWithSearchTerm: (
     searchTerm: string
-  ) => Promise<Pick<Job, 'name' | 'start' | 'end'>[]>;
+  ) => Promise<Job[]>;
 }
