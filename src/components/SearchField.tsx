@@ -1,4 +1,4 @@
-import { ChangeEvent, ChangeEventHandler, FC, useCallback, useEffect, useRef } from "react";
+import { ChangeEvent, FC, useCallback } from "react";
 
 type Props = {
   onSearch: (value: string) => void;

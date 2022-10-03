@@ -29,7 +29,6 @@ export const QuestionOne: React.FC<{ service: IDataService }> = ({
           </div>
           <div className="jobs__list">
             <JobsList jobs={jobs}></JobsList>
-            {/* Render a list of results here... */}
           </div>
         </section>
       </SectionPanel>
