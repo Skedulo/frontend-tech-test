@@ -29,4 +29,9 @@ The `QuestionOne` component has a `service` prop - This is a data service which 
 
 The goal is to see how candidates think through form submissions and what scenarios a user is likely to encounter.
 
-We have included unit tests to validate your solution - Run these from the terminal with `yarn test`. If you think there are additional scenarios to test for then feel free to add some!
+We have included unit tests to validate your solution - Run these from the terminal with `yarn test`. If you think there are additional scenarios to test for then feel free to add some, even if you're not used to testing your code have a go anyway and feel free to talk it through in the follow up or in person if you're pairing.
+
+
+Spend around an hour on this, don't feel you have to rush a solution or complete everything; you will not be judged on whether you finish or not. We would much rather you give us a solution that you are proud of and feel best displays the type of code you would want to ship into production.
+
+Add a README file explaining how you approached the problem, why you've done what you've done and importantly, what you would do differently given more time. This helps us have context and give us an idea of what to talk through in the review stage of the interview. Also include any other relevant comments for us.
