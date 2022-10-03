@@ -12,4 +12,13 @@ The next step was to create the search box and functionality - the `SearchField`
 
 I then used the new components in `QuestionOne` and tested manually to make sure things were in place. When linking everything together, I noticed some issues with the `Pick` description of the service. As the service didn't filter the data, and we need to display the location plus use the ID, I adjusted the return type of the `IDataService` functions.
 
-Once satisfied with all of this, I next looked at the submit button. I removed it and the ref, and created a function called `onChange` which could be passed to the input. At this point, I ran the tests to ensure everything was okay. I adjusted the label of my input to match the tests, reran and everything passed :party-parrot.
+Once satisfied with all of this, I next looked at the submit button. I removed it and the ref, and created a function called `onChange` which could be passed to the input. At this point, I ran the tests to ensure everything was okay. I adjusted the label of my input to match the tests, reran and everything passed!
+
+I then added some styling to the `JobsList` to make each job item clearer and a little prettier. I formatted the datetime to strings and separated them into date and time components.
+
+Future extensions could include
+
+* better styling
+* animations when list appears/disappears
+* placeholder where jobs list should be to indicate no jobs are available
+* filters

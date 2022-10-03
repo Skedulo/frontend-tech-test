@@ -1,0 +1,15 @@
+.job__item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1em;
+  border-radius: 25px;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+.jobs {
+  list-style-type: none;
+}
