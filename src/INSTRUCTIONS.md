@@ -34,8 +34,4 @@ We have included unit tests to validate your solution - Run these from the termi
 
 Spend around an hour on this, don't feel you have to rush a solution or complete everything; you will not be judged on whether you finish or not. We would much rather you give us a solution that you are proud of and feel best displays the type of code you would want to ship into production.
 
-Add a Read Me file we'd like you to cover three things.
-
-* How to run your app
-* Explain how you approached the problem, why you've done what you've done and importantly, if this wasn't a short tech test, what would you do differently? This helps us have context and give us an idea of what to talk through in the review stage of the interview.
-* Any other comments for us
+Add a README file explaining how you approached the problem, why you've done what you've done and importantly, what you would do differently given more time. This helps us have context and give us an idea of what to talk through in the review stage of the interview. Also include any other relevant comments for us.
